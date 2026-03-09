@@ -1,0 +1,180 @@
+﻿Compiling lib\main.dart for the Web...                          
+flutter : Error: 
+unable to find 
+directory entry in 
+pubspec.yaml: C:\User
+s\alphor2\OneDrive - 
+Medtronic PLC\WeSquar
+e\bgmi_tournament\ass
+ets\images\
+At line:1 char:51
++ ... env:PATH"; 
+$output = flutter 
+build web 
+--no-wasm-dry-run 
+2>&1 | Out-S ...
++                    
+      ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Error:    
+ unable t...\asse    
+ts\images\:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Error: unable to 
+find directory entry 
+in pubspec.yaml: C:\U
+sers\alphor2\OneDrive
+ - Medtronic PLC\WeSq
+uare\bgmi_tournament\
+assets\icons\
+Error: unable to 
+locate asset entry 
+in pubspec.yaml: "ass
+ets/fonts/Poppins-Reg
+ular.ttf".
+Target 
+web_release_bundle 
+failed: Exception: 
+Failed to bundle 
+asset files.
+#0      copyAssets (p
+ackage:flutter_tools/
+src/build_system/targ
+ets/assets.dart:61:5)
+<asynchronous 
+suspension>
+#1      WebReleaseBun
+dle.build (package:fl
+utter_tools/src/build
+_system/targets/web.d
+art:614:29)
+<asynchronous 
+suspension>
+#2      _BuildInstanc
+e._invokeInternal (pa
+ckage:flutter_tools/s
+rc/build_system/build
+_system.dart:937:9)
+<asynchronous 
+suspension>
+#3      Future.wait.<
+anonymous closure> (d
+art:async/future.dart
+:546:21)
+<asynchronous 
+suspension>
+#4      _BuildInstanc
+e.invokeTarget (packa
+ge:flutter_tools/src/
+build_system/build_sy
+stem.dart:875:32)
+<asynchronous 
+suspension>
+#5      FlutterBuildS
+ystem.build (package:
+flutter_tools/src/bui
+ld_system/build_syste
+m.dart:684:16)
+<asynchronous 
+suspension>
+#6      
+WebBuilder.buildWeb (
+package:flutter_tools
+/src/web/compile.dart
+:107:34)
+<asynchronous 
+suspension>
+#7      BuildWebComma
+nd.runCommand (packag
+e:flutter_tools/src/c
+ommands/build_web.dar
+t:300:5)
+<asynchronous 
+suspension>
+#8      FlutterComman
+d.run.<anonymous 
+closure> (package:flu
+tter_tools/src/runner
+/flutter_command.dart
+:1590:27)
+<asynchronous 
+suspension>
+#9      AppContext.ru
+n.<anonymous 
+closure> (package:flu
+tter_tools/src/base/c
+ontext.dart:154:19)
+<asynchronous 
+suspension>
+#10     CommandRunner
+.runCommand (package:
+args/command_runner.d
+art:212:13)
+<asynchronous 
+suspension>
+#11     FlutterComman
+dRunner.runCommand.<a
+nonymous closure> (pa
+ckage:flutter_tools/s
+rc/runner/flutter_com
+mand_runner.dart:496:
+9)
+<asynchronous 
+suspension>
+#12     AppContext.ru
+n.<anonymous 
+closure> (package:flu
+tter_tools/src/base/c
+ontext.dart:154:19)
+<asynchronous 
+suspension>
+#13     FlutterComman
+dRunner.runCommand (p
+ackage:flutter_tools/
+src/runner/flutter_co
+mmand_runner.dart:431
+:5)
+<asynchronous 
+suspension>
+#14     FlutterComman
+dRunner.run.<anonymou
+s closure> (package:f
+lutter_tools/src/runn
+er/flutter_command_ru
+nner.dart:307:33)
+<asynchronous 
+suspension>
+#15     
+run.<anonymous 
+closure>.<anonymous 
+closure> (package:flu
+tter_tools/runner.dar
+t:104:11)
+<asynchronous 
+suspension>
+#16     AppContext.ru
+n.<anonymous 
+closure> (package:flu
+tter_tools/src/base/c
+ontext.dart:154:19)
+<asynchronous 
+suspension>
+#17     main (package
+:flutter_tools/execut
+able.dart:103:3)
+<asynchronous 
+suspension>
+
+Compiling lib\main.dart for the Web...                             68.9s
+Error: Failed to 
+compile application 
+for the Web.
+

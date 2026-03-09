@@ -1,0 +1,281 @@
+﻿Compiling lib\main.dart for the Web...                          
+C:\flutter\bin\flutter
+.bat : Wasm dry run 
+findings:
+At line:1 char:1
++ C:\flutter\bin\flutt
+er.bat build web 2>&1 
+| Out-File -Encoding 
+utf8 b ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Wasm dry r   
+ un findings::Stri    
+ng) [], RemoteExc    
+eption
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Found 
+incompatibilities 
+with WebAssembly.
+
+package:flutter_secure
+_storage_web/flutter_s
+ecure_storage_web.dart
+ 5:1 - dart:html 
+unsupported (0)
+package:flutter_secure
+_storage_web/flutter_s
+ecure_storage_web.dart
+ 6:1 - dart:js_util 
+unsupported (15)
+package:flutter_secure
+_storage_web/src/subtl
+e.dart 21:1 - 
+dart:html unsupported 
+(0)
+package:flutter_secure
+_storage_web/src/subtl
+e.dart 22:1 - 
+dart:js_util 
+unsupported (15)
+package:flutter_secure
+_storage_web/src/subtl
+e.dart 26:1 - 
+package:js/js.dart 
+unsupported (14)
+
+Consider addressing 
+these issues to 
+enable wasm builds. 
+See docs for more 
+info: https://docs.flu
+tter.dev/platform-inte
+gration/web/wasm
+
+Use --no-wasm-dry-run 
+to disable these 
+warnings.
+Target dart2js 
+failed: 
+ProcessException: 
+Process exited 
+abnormally with exit 
+code 1:
+lib/features/admin/pre
+sentation/screens/mass
+_payouts_screen.dart:9
+0:13:
+Error: No named 
+parameter with the 
+name 'color'.
+            color: 
+AppColors.success,
+            ^^^^^
+lib/shared/widgets/app
+_button.dart:16:9:
+Info: Found this 
+candidate, but the 
+arguments don't match.
+  const AppButton({
+        ^^^^^^^^^
+Error: Compilation 
+failed.
+  Command: C:\flutter\
+bin\cache\dart-sdk\bin
+\dart.exe compile js -
+-platform-binaries=C:\
+flutter\bin\cache\flut
+ter_web_sdk\kernel --i
+nvoker=flutter_tool -D
+dart.vm.product=true -
+DFLUTTER_VERSION=3.41.
+2 -DFLUTTER_CHANNEL=st
+able -DFLUTTER_GIT_URL
+=https://github.com/fl
+utter/flutter.git -DFL
+UTTER_FRAMEWORK_REVISI
+ON=90673a4eef -DFLUTTE
+R_ENGINE_REVISION=6c0b
+aaebf7 -DFLUTTER_DART_
+VERSION=3.11.0 -DFLUTT
+ER_WEB_USE_SKIA=true -
+DFLUTTER_WEB_USE_SKWAS
+M=false -DFLUTTER_WEB_
+CANVASKIT_URL=https://
+www.gstatic.com/flutte
+r-canvaskit/6c0baaebf7
+0e0148f485f27d5616b3d3
+382da7bf/ --native-nul
+l-assertions 
+--no-source-maps -O4 
+--minify -o C:\Users\a
+lphor2\OneDrive - 
+Medtronic PLC\WeSquare
+\bgmi_tournament\.dart
+_tool\flutter_build\00
+e691458a3cbf0573fe5e60
+0614152a\app.dill --pa
+ckages=C:\Users\alphor
+2\OneDrive - 
+Medtronic PLC\WeSquare
+\bgmi_tournament\.dart
+_tool\package_config.j
+son --cfe-only C:\User
+s\alphor2\OneDrive - 
+Medtronic PLC\WeSquare
+\bgmi_tournament\.dart
+_tool\flutter_build\00
+e691458a3cbf0573fe5e60
+0614152a\main.dart
+#0      RunResult.thro
+wException (package:fl
+utter_tools/src/base/p
+rocess.dart:153:5)
+#1      _DefaultProces
+sUtils.run (package:fl
+utter_tools/src/base/p
+rocess.dart:379:19)
+<asynchronous 
+suspension>
+#2      
+Dart2JSTarget.build (p
+ackage:flutter_tools/s
+rc/build_system/target
+s/web.dart:208:5)
+<asynchronous 
+suspension>
+#3      _BuildInstance
+._invokeInternal (pack
+age:flutter_tools/src/
+build_system/build_sys
+tem.dart:937:9)
+<asynchronous 
+suspension>
+#4      Future.wait.<a
+nonymous closure> (dar
+t:async/future.dart:54
+6:21)
+<asynchronous 
+suspension>
+#5      _BuildInstance
+.invokeTarget (package
+:flutter_tools/src/bui
+ld_system/build_system
+.dart:875:32)
+<asynchronous 
+suspension>
+#6      Future.wait.<a
+nonymous closure> (dar
+t:async/future.dart:54
+6:21)
+<asynchronous 
+suspension>
+#7      _BuildInstance
+.invokeTarget (package
+:flutter_tools/src/bui
+ld_system/build_system
+.dart:875:32)
+<asynchronous 
+suspension>
+#8      FlutterBuildSy
+stem.build (package:fl
+utter_tools/src/build_
+system/build_system.da
+rt:684:16)
+<asynchronous 
+suspension>
+#9      
+WebBuilder.buildWeb (p
+ackage:flutter_tools/s
+rc/web/compile.dart:10
+7:34)
+<asynchronous 
+suspension>
+#10     BuildWebComman
+d.runCommand (package:
+flutter_tools/src/comm
+ands/build_web.dart:30
+0:5)
+<asynchronous 
+suspension>
+#11     FlutterCommand
+.run.<anonymous 
+closure> (package:flut
+ter_tools/src/runner/f
+lutter_command.dart:15
+90:27)
+<asynchronous 
+suspension>
+#12     AppContext.run
+.<anonymous closure> (
+package:flutter_tools/
+src/base/context.dart:
+154:19)
+<asynchronous 
+suspension>
+#13     CommandRunner.
+runCommand (package:ar
+gs/command_runner.dart
+:212:13)
+<asynchronous 
+suspension>
+#14     FlutterCommand
+Runner.runCommand.<ano
+nymous closure> (packa
+ge:flutter_tools/src/r
+unner/flutter_command_
+runner.dart:496:9)
+<asynchronous 
+suspension>
+#15     AppContext.run
+.<anonymous closure> (
+package:flutter_tools/
+src/base/context.dart:
+154:19)
+<asynchronous 
+suspension>
+#16     FlutterCommand
+Runner.runCommand (pac
+kage:flutter_tools/src
+/runner/flutter_comman
+d_runner.dart:431:5)
+<asynchronous 
+suspension>
+#17     FlutterCommand
+Runner.run.<anonymous 
+closure> (package:flut
+ter_tools/src/runner/f
+lutter_command_runner.
+dart:307:33)
+<asynchronous 
+suspension>
+#18     
+run.<anonymous 
+closure>.<anonymous 
+closure> (package:flut
+ter_tools/runner.dart:
+104:11)
+<asynchronous 
+suspension>
+#19     AppContext.run
+.<anonymous closure> (
+package:flutter_tools/
+src/base/context.dart:
+154:19)
+<asynchronous 
+suspension>
+#20     main (package:
+flutter_tools/executab
+le.dart:103:3)
+<asynchronous 
+suspension>
+
+Compiling lib\main.dart for the Web...                             84.6s
+Error: Failed to 
+compile application 
+for the Web.

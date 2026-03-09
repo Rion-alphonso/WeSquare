@@ -1,0 +1,69 @@
+﻿Analyzing bgmi_tournament...                                    
+
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\admin_screenshot_review_screen.dart:123:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\admin_screenshot_review_screen.dart:141:29 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_tournament_screen.dart:355:23 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_tournament_screen.dart:366:23 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\admin_withdrawal_screen.dart:75:35 - prefer_const_constructors
+warning - A value for optional parameter 'isApproved' isn't ever given - lib\features\admin\presentation\screens\bulk_verification_screen.dart:25:10 - unused_element_parameter
+warning - A value for optional parameter 'isRejected' isn't ever given - lib\features\admin\presentation\screens\bulk_verification_screen.dart:26:10 - unused_element_parameter
+warning - A value for optional parameter 'isReviewed' isn't ever given - lib\features\admin\presentation\screens\bulk_verification_screen.dart:27:10 - unused_element_parameter
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\bulk_verification_screen.dart:101:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\bulk_verification_screen.dart:102:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\bulk_verification_screen.dart:177:24 - prefer_const_constructors
+warning - A value for optional parameter 'isSettled' isn't ever given - lib\features\admin\presentation\screens\mass_payouts_screen.dart:24:10 - unused_element_parameter
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\mass_payouts_screen.dart:326:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\mass_payouts_screen.dart:327:36 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\features\auth\presentation\screens\login_screen.dart:136:36 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\features\auth\presentation\screens\login_screen.dart:136:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\auth\presentation\screens\otp_screen.dart:136:47 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\screens\profile_screen.dart:62:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\screens\profile_screen.dart:78:37 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\features\profile\presentation\screens\profile_screen.dart:81:38 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\screens\profile_screen.dart:81:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\widgets\achievement_badge.dart:105:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\widgets\achievement_badge.dart:210:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\widgets\achievement_badge.dart:212:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\tournament\presentation\screens\home_screen.dart:182:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\tournament\presentation\screens\home_screen.dart:184:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\tournament\presentation\screens\squad_board_screen.dart:101:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\tournament\presentation\screens\squad_board_screen.dart:298:17 - prefer_const_constructors
+   info - Unnecessary braces in a string interpolation - lib\features\tournament\presentation\screens\tournament_detail_screen.dart:334:42 - unnecessary_brace_in_string_interps
+   info - Use 'const' with the constructor to improve performance - lib\features\wallet\presentation\screens\add_money_screen.dart:111:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\wallet\presentation\screens\wallet_screen.dart:67:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\wallet\presentation\screens\withdraw_screen.dart:126:43 - prefer_const_constructors
+   info - The imported package 'flutter_displaymode' isn't a dependency of the importing package - lib\main.dart:7:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_displaymode/flutter_displaymode.dart' - lib\main.dart:7:8 - uri_does_not_exist
+  error - Undefined name 'FlutterDisplayMode' - lib\main.dart:22:13 - undefined_identifier
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:47:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:85:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:86:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:86:31 - prefer_const_constructors
+  error - The getter 'background' isn't defined for the type 'AppColors' - lib\shared\widgets\adaptive_scaffold.dart:91:38 - undefined_getter
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:190:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:191:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\adaptive_scaffold.dart:191:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\shared\widgets\app_button.dart:40:21 - prefer_const_constructors
+warning - Unused import: 'dart:math' - lib\shared\widgets\mesh_background.dart:1:8 - unused_import
+
+C:\flutter\bin\flutter
+.bat : 45 issues 
+found. (ran in 7.3s)
+At line:1 char:1
++ C:\flutter\bin\flutt
+er.bat analyze 
+--no-pub 2>&1 | 
+Out-File -FilePath ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (45 issues    
+ found. (ran in 7.    
+3s):String) [], R    
+emoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

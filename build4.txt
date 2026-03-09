@@ -1,0 +1,392 @@
+﻿Compiling lib\main.dart for the Web...                          
+flutter : Target 
+dart2js failed: 
+ProcessException: 
+Process exited 
+abnormally with exit 
+code 1:
+At line:1 char:51
++ ... env:PATH"; 
+$output = flutter 
+build web 
+--no-wasm-dry-run 
+2>&1 | Out-S ...
++                    
+      ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Target    
+ dart2js ...th ex    
+it code 1::Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Error: Couldn't 
+resolve the package 
+'connectivity_plus' 
+in 'package:connectiv
+ity_plus/src/connecti
+vity_plus_web.dart'.
+Error: Couldn't 
+resolve the package 
+'firebase_core_web' 
+in 'package:firebase_
+core_web/firebase_cor
+e_web.dart'.
+Error: Couldn't 
+resolve the package '
+firebase_messaging_we
+b' in 'package:fireba
+se_messaging_web/fire
+base_messaging_web.da
+rt'.
+Error: Couldn't 
+resolve the package '
+image_cropper_for_web
+' in 'package:image_c
+ropper_for_web/image_
+cropper_for_web.dart'
+.
+Error: Couldn't 
+resolve the package '
+image_picker_for_web'
+ in 'package:image_pi
+cker_for_web/image_pi
+cker_for_web.dart'.
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:9:8:
+Error: Not found: 'pa
+ckage:connectivity_pl
+us/src/connectivity_p
+lus_web.dart'
+import 'package:conne
+ctivity_plus/src/conn
+ectivity_plus_web.dar
+t';
+       ^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:10:8:
+Error: Not found: 'pa
+ckage:firebase_core_w
+eb/firebase_core_web.
+dart'
+import 'package:fireb
+ase_core_web/firebase
+_core_web.dart';
+       ^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:11:8:
+Error: Not found: 'pa
+ckage:firebase_messag
+ing_web/firebase_mess
+aging_web.dart'
+import 'package:fireb
+ase_messaging_web/fir
+ebase_messaging_web.d
+art';
+       ^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:13:8:
+Error: Not found: 'pa
+ckage:image_cropper_f
+or_web/image_cropper_
+for_web.dart'
+import 'package:image
+_cropper_for_web/imag
+e_cropper_for_web.dar
+t';
+       ^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:14:8:
+Error: Not found: 'pa
+ckage:image_picker_fo
+r_web/image_picker_fo
+r_web.dart'
+import 'package:image
+_picker_for_web/image
+_picker_for_web.dart'
+;
+       ^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:21:3:
+Error: Undefined 
+name 'ConnectivityPlu
+sWebPlugin'.
+  ConnectivityPlusWeb
+Plugin.registerWith(r
+egistrar);
+  ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:22:3:
+Error: Undefined 
+name 
+'FirebaseCoreWeb'.
+  FirebaseCoreWeb.reg
+isterWith(registrar);
+  ^^^^^^^^^^^^^^^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:23:3:
+Error: Undefined 
+name 'FirebaseMessagi
+ngWeb'.
+  FirebaseMessagingWe
+b.registerWith(regist
+rar);
+  
+^^^^^^^^^^^^^^^^^^^^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:25:3:
+Error: Undefined 
+name 
+'ImageCropperPlugin'.
+  ImageCropperPlugin.
+registerWith(registra
+r);
+  ^^^^^^^^^^^^^^^^^^
+.dart_tool/flutter_bu
+ild/00e691458a3cbf057
+3fe5e600614152a/web_p
+lugin_registrant.dart
+:26:3:
+Error: Undefined 
+name 
+'ImagePickerPlugin'.
+  ImagePickerPlugin.r
+egisterWith(registrar
+);
+  ^^^^^^^^^^^^^^^^^
+Error: Compilation 
+failed.
+  Command: C:\flutter
+\bin\cache\dart-sdk\b
+in\dart.exe compile 
+js --platform-binarie
+s=C:\flutter\bin\cach
+e\flutter_web_sdk\ker
+nel --invoker=flutter
+_tool -Ddart.vm.produ
+ct=true -DFLUTTER_VER
+SION=3.41.2 -DFLUTTER
+_CHANNEL=stable -DFLU
+TTER_GIT_URL=https://
+github.com/flutter/fl
+utter.git -DFLUTTER_F
+RAMEWORK_REVISION=906
+73a4eef -DFLUTTER_ENG
+INE_REVISION=6c0baaeb
+f7 -DFLUTTER_DART_VER
+SION=3.11.0 -DFLUTTER
+_WEB_USE_SKIA=true -D
+FLUTTER_WEB_USE_SKWAS
+M=false -DFLUTTER_WEB
+_CANVASKIT_URL=https:
+//www.gstatic.com/flu
+tter-canvaskit/6c0baa
+ebf70e0148f485f27d561
+6b3d3382da7bf/ --nati
+ve-null-assertions 
+--no-source-maps -O4 
+--minify -o C:\Users\
+alphor2\OneDrive - 
+Medtronic PLC\WeSquar
+e\bgmi_tournament\.da
+rt_tool\flutter_build
+\00e691458a3cbf0573fe
+5e600614152a\app.dill
+ --packages=C:\Users\
+alphor2\OneDrive - 
+Medtronic PLC\WeSquar
+e\bgmi_tournament\.da
+rt_tool\package_confi
+g.json --cfe-only C:\
+Users\alphor2\OneDriv
+e - Medtronic PLC\WeS
+quare\bgmi_tournament
+\.dart_tool\flutter_b
+uild\00e691458a3cbf05
+73fe5e600614152a\main
+.dart
+#0      RunResult.thr
+owException (package:
+flutter_tools/src/bas
+e/process.dart:153:5)
+#1      _DefaultProce
+ssUtils.run (package:
+flutter_tools/src/bas
+e/process.dart:379:19
+)
+<asynchronous 
+suspension>
+#2      
+Dart2JSTarget.build (
+package:flutter_tools
+/src/build_system/tar
+gets/web.dart:208:5)
+<asynchronous 
+suspension>
+#3      _BuildInstanc
+e._invokeInternal (pa
+ckage:flutter_tools/s
+rc/build_system/build
+_system.dart:937:9)
+<asynchronous 
+suspension>
+#4      Future.wait.<
+anonymous closure> (d
+art:async/future.dart
+:546:21)
+<asynchronous 
+suspension>
+#5      _BuildInstanc
+e.invokeTarget (packa
+ge:flutter_tools/src/
+build_system/build_sy
+stem.dart:875:32)
+<asynchronous 
+suspension>
+#6      Future.wait.<
+anonymous closure> (d
+art:async/future.dart
+:546:21)
+<asynchronous 
+suspension>
+#7      _BuildInstanc
+e.invokeTarget (packa
+ge:flutter_tools/src/
+build_system/build_sy
+stem.dart:875:32)
+<asynchronous 
+suspension>
+#8      FlutterBuildS
+ystem.build (package:
+flutter_tools/src/bui
+ld_system/build_syste
+m.dart:684:16)
+<asynchronous 
+suspension>
+#9      
+WebBuilder.buildWeb (
+package:flutter_tools
+/src/web/compile.dart
+:107:34)
+<asynchronous 
+suspension>
+#10     BuildWebComma
+nd.runCommand (packag
+e:flutter_tools/src/c
+ommands/build_web.dar
+t:300:5)
+<asynchronous 
+suspension>
+#11     FlutterComman
+d.run.<anonymous 
+closure> (package:flu
+tter_tools/src/runner
+/flutter_command.dart
+:1590:27)
+<asynchronous 
+suspension>
+#12     AppContext.ru
+n.<anonymous 
+closure> (package:flu
+tter_tools/src/base/c
+ontext.dart:154:19)
+<asynchronous 
+suspension>
+#13     CommandRunner
+.runCommand (package:
+args/command_runner.d
+art:212:13)
+<asynchronous 
+suspension>
+#14     FlutterComman
+dRunner.runCommand.<a
+nonymous closure> (pa
+ckage:flutter_tools/s
+rc/runner/flutter_com
+mand_runner.dart:496:
+9)
+<asynchronous 
+suspension>
+#15     AppContext.ru
+n.<anonymous 
+closure> (package:flu
+tter_tools/src/base/c
+ontext.dart:154:19)
+<asynchronous 
+suspension>
+#16     FlutterComman
+dRunner.runCommand (p
+ackage:flutter_tools/
+src/runner/flutter_co
+mmand_runner.dart:431
+:5)
+<asynchronous 
+suspension>
+#17     FlutterComman
+dRunner.run.<anonymou
+s closure> (package:f
+lutter_tools/src/runn
+er/flutter_command_ru
+nner.dart:307:33)
+<asynchronous 
+suspension>
+#18     
+run.<anonymous 
+closure>.<anonymous 
+closure> (package:flu
+tter_tools/runner.dar
+t:104:11)
+<asynchronous 
+suspension>
+#19     AppContext.ru
+n.<anonymous 
+closure> (package:flu
+tter_tools/src/base/c
+ontext.dart:154:19)
+<asynchronous 
+suspension>
+#20     main (package
+:flutter_tools/execut
+able.dart:103:3)
+<asynchronous 
+suspension>
+
+Compiling lib\main.dart for the Web...                             16.6s
+Error: Failed to 
+compile application 
+for the Web.
+
